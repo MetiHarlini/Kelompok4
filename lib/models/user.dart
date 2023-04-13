@@ -1,3 +1,5 @@
+import 'dart:io';
+
 class User {
   final int id;
   final String name;
@@ -28,12 +30,11 @@ class User {
 
   factory User.dummy() {
     return User(
-      id: 001,
+      id: 01,
       name: "Kelompok 4",
       username: "kelompok_empat",
       email: "kelompok4@itg.ac.id",
-      profilePhoto:
-          "https://i.postimg.cc/D0yNhz1D/Design.png",
+      profilePhoto: "https://i.postimg.cc/D0yNhz1D/Design.png",
       phoneNumber: "085555555555",
     );
   }
