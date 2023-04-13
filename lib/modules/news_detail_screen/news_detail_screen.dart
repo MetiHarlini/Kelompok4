@@ -91,7 +91,7 @@ class _NewsDetailScreenHotState extends State<NewsDetailScreenHot> {
                         'Rekomendasi 10 Wisata Bandung Terbaik 2023',
                         textAlign: TextAlign.left,
                         style: TextStyle(
-                            fontWeight: FontWeight.normal, fontSize: 20),
+                            fontWeight: FontWeight.bold, fontSize: 20),
                       )
                     ],
                   ),
